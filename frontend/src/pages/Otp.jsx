@@ -19,7 +19,7 @@ function Otp() {
     console.log("Email:", email);
     try {
       // Send the OTP and email to the backend
-      const response = await axios.post("http://localhost:3000/verifyotp", {
+      const response = await axios.post("https://hospitalbackend-b0sh.onrender.com/verifyotp", {
         otp: otp,
       });
 

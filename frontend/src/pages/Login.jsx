@@ -22,7 +22,7 @@ export const Login = () => {
     try {
       // Send the login data to the server for authentication
       const response = await axios.post(
-        "http://localhost:3000/api/auth/login",
+        "https://hospitalbackend-b0sh.onrender.com/api/auth/login",
         loginData
       );
 

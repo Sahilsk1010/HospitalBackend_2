@@ -22,7 +22,7 @@ function Password() {
         return;
       }
 
-      const response = await axios.put("http://localhost:3000/reset", {
+      const response = await axios.put("https://hospitalbackend-b0sh.onrender.com/reset", {
         email: email,
         password: newPassword,
       });

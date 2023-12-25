@@ -17,7 +17,7 @@ function Reset() {
 
     try {
       // Send the email to the backend to generate and send an OTP
-      const response = await axios.post("http://localhost:3000/generateotp", {
+      const response = await axios.post("https://hospitalbackend-b0sh.onrender.com/generateotp", {
         email,
       });
 

@@ -27,7 +27,7 @@ export const Staff = () => {
     try {
       // Send the registration data to the server's registration endpoint
       const response = await axios.post(
-        "http://localhost:3000/staff/add",
+        "https://hospitalbackend-b0sh.onrender.com/staff/add",
         registrationData
       );
 
